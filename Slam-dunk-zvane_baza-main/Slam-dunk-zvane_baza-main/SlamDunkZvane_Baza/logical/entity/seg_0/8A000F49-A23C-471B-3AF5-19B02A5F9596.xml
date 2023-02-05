@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A000F49-A23C-471B-3AF5-19B02A5F9596" name="DOSTAVA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:10:59 UTC</createdTime>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<engineerTo>
+<item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>DOS</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_adresa_kupca" id="4BA49019-333D-5B07-C067-B7FAD3738651">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:12:17 UTC</createdTime>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<engineerTo>
+<item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica" id="E365DBB4-291F-D664-21ED-503193F5C403">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:12:16 UTC</createdTime>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<engineerTo>
+<item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75 CHAR</dataTypeSize>
+<ownDataTypeParameters>75 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postanski_broj" id="72D10E82-F2D4-2E3C-FBE2-E363BF623301">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:12:16 UTC</createdTime>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<engineerTo>
+<item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kucni_broj" id="7344ECE9-43A1-8847-5C36-5DF0F89D5C03">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:12:16 UTC</createdTime>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<engineerTo>
+<item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_kupca" id="61443DBA-B41D-C20C-17C2-B74533C48DEA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:53:19 UTC</createdTime>
+<generatorID>399D90B2-B7F7-56F8-E54F-EA2605B33A92</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<engineerTo>
+<item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="true"/>
+</engineerTo>
+<referedAttribute>EEEAA205-C2BF-A2E6-D79D-87FE911E8889</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD1FBCBC-7A59-4BD3-CFD5-0FFAF20EE6B9" name="DOSTAVA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:12:35 UTC</createdTime>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61443DBA-B41D-C20C-17C2-B74533C48DEA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

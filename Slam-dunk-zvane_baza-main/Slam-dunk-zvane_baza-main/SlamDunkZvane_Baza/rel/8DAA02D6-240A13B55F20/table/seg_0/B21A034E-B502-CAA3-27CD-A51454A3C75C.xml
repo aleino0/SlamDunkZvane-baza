@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B21A034E-B502-CAA3-27CD-A51454A3C75C" name="KUPAC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>C12ECA67-3D9B-EEAE-3ACF-4825D09F6975</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<abbreviation>KUP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KUP_ID_kupca" id="8CE9540E-75F2-F5A6-30ED-191F4CAE30B0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>EEEAA205-C2BF-A2E6-D79D-87FE911E8889</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUP_email" id="B71E7294-482C-0061-6F21-72C6649034DA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>FC33496D-B31C-2A87-78FB-68E92D5E9187</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUP_ime" id="FB241D11-02A3-8BB7-7593-FB5B522A0DC0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>B4682D20-EECE-592C-D06E-8AEEC287FFB8</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUP_prezime" id="E289061B-EEC4-332B-F981-239A559B79A5">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>B79EB3AE-94AE-F961-92A9-786CF836D9D1</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUP_tel_broj" id="11A51AD9-FD2F-1F04-A10B-04959C6CA73F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>410B2F5E-286E-4145-7B51-D985E2E48AAE</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODAJNI_PREDSTAVNIK_ID" id="C079DB9C-0952-F2C2-BE28-A2B13A6BC246">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>ED55952E-4A83-FCA8-5EE8-2931A20966BD</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E09E3C2D-B14B-8B42-AF07-2E0BCC15E472" referredColumn="4897C47D-117C-B747-F6E4-AA0D5AF2A244"/>
+</associations>
+</Column>
+<Column name="KRT_ID" id="DCBF9709-A776-EABD-2676-167077C46ED0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>195C5947-EBD1-37FF-5A51-3EC541069188</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KRT_popust" id="B7959809-2DF4-EF9B-07F4-3F9C20B91B47">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>75C86585-C9CF-5C70-CC38-5E9CCBA658A6</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRE_tim" id="75188C72-EDA2-FF77-3049-CD6056302B0A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>A346FEB5-CCA2-FFAA-129B-FA96A9091775</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DEE4C2F-8C17-313D-400A-C7DCC3CEC375" name="KUPAC_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>365FE90B-EADD-0234-ED47-F43CBF4877D1</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CE9540E-75F2-F5A6-30ED-191F4CAE30B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55DB2B34-FAA6-7934-B805-C6318BDE5A69" name="KUPAC_PKv2">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>23F9352E-E38C-43AF-52C0-212266BF86FD</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75188C72-EDA2-FF77-3049-CD6056302B0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B62B556-02EA-AB52-FD11-18A3EEA8ED2C" name="KUPAC_KRT_ID_UN">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>77B66DCD-CD4B-2489-B710-1AB243A8FE66</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCBF9709-A776-EABD-2676-167077C46ED0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="463AEB0E-61B9-5499-4812-5BCB55471CE0" name="KUPAC_PKv3">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>5A88707E-0FEC-FA75-78AA-77C78F57C80C</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCBF9709-A776-EABD-2676-167077C46ED0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C60B9F4C-A930-A4A6-0F86-A4B86267B5E1" name="KUPAC_PRODAJNI_PREDSTAVNIK_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>325576C2-155E-8977-F4E6-C7E3FF23D932</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C079DB9C-0952-F2C2-BE28-A2B13A6BC246"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

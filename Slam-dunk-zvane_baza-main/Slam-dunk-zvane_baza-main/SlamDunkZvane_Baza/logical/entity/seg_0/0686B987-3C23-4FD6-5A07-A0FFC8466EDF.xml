@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0686B987-3C23-4FD6-5A07-A0FFC8466EDF" name="GRAD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:40:52 UTC</createdTime>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<engineerTo>
+<item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>GRD</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="postanki_broj" id="8ECE4877-B0F0-3638-4222-45FBDA73EA87">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:41:08 UTC</createdTime>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<engineerTo>
+<item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv_grada" id="B27D2FE5-DC9E-F514-EBC3-683F183CD310">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:41:08 UTC</createdTime>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<engineerTo>
+<item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="1C561CC0-C727-8A68-D0A0-FCD7AC02E234">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:57:17 UTC</createdTime>
+<generatorID>3A5707B5-9BD3-D207-C3B1-5A3B3475362A</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<engineerTo>
+<item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="true"/>
+</engineerTo>
+<referedAttribute>DA4E1D19-8910-4B65-942A-88AE1D2C84CA</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B301F7B-D4C6-725B-B3DD-C3AA137ABDD7" name="GRAD PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:41:28 UTC</createdTime>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8ECE4877-B0F0-3638-4222-45FBDA73EA87</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

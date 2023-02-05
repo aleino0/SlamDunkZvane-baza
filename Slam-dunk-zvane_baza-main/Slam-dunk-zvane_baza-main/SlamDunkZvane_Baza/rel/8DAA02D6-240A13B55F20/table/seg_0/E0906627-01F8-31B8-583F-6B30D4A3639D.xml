@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0906627-01F8-31B8-583F-6B30D4A3639D" name="GRAD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>0686B987-3C23-4FD6-5A07-A0FFC8466EDF</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<abbreviation>GRD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="postanki_broj" id="15AE88D6-805A-834F-5CD3-D75E04FF1C43">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>8ECE4877-B0F0-3638-4222-45FBDA73EA87</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_grada" id="767E315E-E85E-429B-B068-2F76DE61E082">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>B27D2FE5-DC9E-F514-EBC3-683F183CD310</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODAJNI_PREDSTAVNIK_ID" id="CAFA455D-E3FE-A5F5-F273-A59660B6081F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>1C561CC0-C727-8A68-D0A0-FCD7AC02E234</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBEE97BE-D07E-5FA4-5D39-A60A24422895" referredColumn="4897C47D-117C-B747-F6E4-AA0D5AF2A244"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D341298-5A0B-C4BB-3398-2F69FF194D4D" name="GRAD_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>8B301F7B-D4C6-725B-B3DD-C3AA137ABDD7</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15AE88D6-805A-834F-5CD3-D75E04FF1C43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54D9AD11-8ED2-F651-857E-31B97A2C50E8" name="GRAD__IDX">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3A5707B5-9BD3-D207-C3B1-5A3B3475362A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CAFA455D-E3FE-A5F5-F273-A59660B6081F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="209D2253-6C68-6E4B-AE53-AA5DF75254B4" name="GRAD_PRODAJNI_PREDSTAVNIK_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>3A5707B5-9BD3-D207-C3B1-5A3B3475362A</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAFA455D-E3FE-A5F5-F273-A59660B6081F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

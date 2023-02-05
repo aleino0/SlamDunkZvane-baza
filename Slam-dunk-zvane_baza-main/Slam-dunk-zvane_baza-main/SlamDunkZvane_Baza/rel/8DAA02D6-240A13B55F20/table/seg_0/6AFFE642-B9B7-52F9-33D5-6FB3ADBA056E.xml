@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AFFE642-B9B7-52F9-33D5-6FB3ADBA056E" name="SKLADISTE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>92142AFF-B9F3-6998-6FB3-EF20AC97514E</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<abbreviation>SKL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_skladista" id="8293D6E6-16D2-61E7-590D-3271C0A20660">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>29A8FC17-4FC8-F689-99E4-4EF7C0B76127</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nabavna_cijena" id="C806F8F6-D5C2-310B-A773-12AC530BCEC7">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>B3C3CD7F-9AD3-CD09-AC52-310831A4C5AC</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolicina" id="F9848234-449F-7D89-CEFB-73775F2DBAC6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>AC5CA427-D041-1474-6EB7-CB0CECEBB8F7</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86E1770D-0188-BB22-789F-384E47336302" name="SKLADISTE_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:25:55 UTC</createdTime>
+<generatorID>574E208D-78D9-D3AE-96AC-680288837EE0</generatorID>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8293D6E6-16D2-61E7-590D-3271C0A20660"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

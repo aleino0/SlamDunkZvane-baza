@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="relacija kupac-dostava" directorySegmentName="seg_0" id="399D90B2-B7F7-56F8-E54F-EA2605B33A92">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:50:41 UTC</createdTime>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<engineerTo>
+<item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="true"/>
+</engineerTo>
+<sourcePk>365FE90B-EADD-0234-ED47-F43CBF4877D1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C12ECA67-3D9B-EEAE-3ACF-4825D09F6975</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A000F49-A23C-471B-3AF5-19B02A5F9596</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

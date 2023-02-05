@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="relacija artikl-povijest cijena" directorySegmentName="seg_0" id="99A71C4A-EAAB-5CEE-CDAF-D614236595E2">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:42:13 UTC</createdTime>
+<ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
+<engineerTo>
+<item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="true"/>
+</engineerTo>
+<sourcePk>88E10937-6006-88F6-AD0E-F94F9D3997F5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0AEB1E18-78ED-3DE3-32B7-577E5800BEEF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B9668C26-1459-3191-29BF-13231D016FF9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
