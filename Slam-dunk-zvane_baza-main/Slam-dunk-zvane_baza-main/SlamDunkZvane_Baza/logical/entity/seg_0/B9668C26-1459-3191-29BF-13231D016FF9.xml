@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9668C26-1459-3191-29BF-13231D016FF9" name="POVIJEST CIJENA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9668C26-1459-3191-29BF-13231D016FF9" name="POVIJEST_CIJENA">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-12 12:05:13 UTC</createdTime>
 <ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>

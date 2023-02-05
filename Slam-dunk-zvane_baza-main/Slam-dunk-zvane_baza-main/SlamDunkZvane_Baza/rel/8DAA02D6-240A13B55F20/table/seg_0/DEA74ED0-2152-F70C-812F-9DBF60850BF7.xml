@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEA74ED0-2152-F70C-812F-9DBF60850BF7" name="TIM">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEA74ED0-2152-F70C-812F-9DBF60850BF7" name="TIMOVI">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>8C52F698-3370-D11F-F700-954E62CB219E</generatorID>
@@ -57,7 +57,7 @@
 <ownDataTypeParameters>,4,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="KUPAC_KUP_ID_kupca" id="0B1DA2F5-B035-3D16-D512-982049E7A000">
+<Column name="KUPCI_KUP_ID_kupca" id="0B1DA2F5-B035-3D16-D512-982049E7A000">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>3987FFCD-559D-2C90-055D-971C2D9754A0</generatorID>
@@ -97,7 +97,7 @@
 <colUsage columnID="0B1DA2F5-B035-3D16-D512-982049E7A000"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9BB3A1A8-8277-EC99-ABE3-DFA7C9C5416E" name="TIM_KUPAC_FK">
+<ind_PK_UK id="9BB3A1A8-8277-EC99-ABE3-DFA7C9C5416E" name="tim_KUPCI_FK">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>3CF0121F-09D9-B36D-014D-D2954A27AD3D</generatorID>

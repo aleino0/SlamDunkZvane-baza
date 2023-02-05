@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19A3305E-452E-7613-4C9D-C7786E335A5E" name="NARUDZBA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19A3305E-452E-7613-4C9D-C7786E335A5E" name="NARUDZBE">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>F704C46A-3812-CA80-21FF-488F1153DDB2</generatorID>
@@ -67,7 +67,7 @@
 <ownDataTypeParameters>,6,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="KUPAC_KUP_ID_kupca" id="8359C77A-97AA-8824-F3BE-0955A1694456">
+<Column name="KUPCI_KUP_ID_kupca" id="8359C77A-97AA-8824-F3BE-0955A1694456">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>6A9D1B41-0FA4-7DCB-6617-9691283F0FB1</generatorID>
@@ -96,7 +96,7 @@
 <colUsage columnID="476D8279-0881-369B-D268-D13D0ACCE7CF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2139D8B6-D72B-7F96-ACD4-95CEE3ACD7DB" name="NARUDZBA_KUPAC_FK">
+<ind_PK_UK id="2139D8B6-D72B-7F96-ACD4-95CEE3ACD7DB" name="NARUDZBE_KUPCI_FK">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>41A0957F-186F-AF1B-6F9C-DF6B117F7F54</generatorID>

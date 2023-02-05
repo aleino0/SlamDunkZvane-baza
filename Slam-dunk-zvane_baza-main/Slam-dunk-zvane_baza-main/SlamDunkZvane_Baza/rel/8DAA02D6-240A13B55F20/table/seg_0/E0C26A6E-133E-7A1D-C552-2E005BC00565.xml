@@ -56,7 +56,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="KUPAC_KUP_ID_kupca" id="276E91F2-1691-A4D4-D860-D68424D7FC5F">
+<Column name="KUPCI_KUP_ID_kupca" id="276E91F2-1691-A4D4-D860-D68424D7FC5F">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>61443DBA-B41D-C20C-17C2-B74533C48DEA</generatorID>
@@ -85,7 +85,7 @@
 <colUsage columnID="276E91F2-1691-A4D4-D860-D68424D7FC5F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2187BA77-3E0B-1878-E98A-C63A740AC450" name="DOSTAVA_KUPAC_FK">
+<ind_PK_UK id="2187BA77-3E0B-1878-E98A-C63A740AC450" name="DOSTAVA_KUPCI_FK">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>399D90B2-B7F7-56F8-E54F-EA2605B33A92</generatorID>

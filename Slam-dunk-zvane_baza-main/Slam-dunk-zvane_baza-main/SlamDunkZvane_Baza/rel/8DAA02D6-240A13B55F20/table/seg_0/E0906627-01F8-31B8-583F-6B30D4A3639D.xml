@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0906627-01F8-31B8-583F-6B30D4A3639D" name="GRAD">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0906627-01F8-31B8-583F-6B30D4A3639D" name="GRADOVI">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>0686B987-3C23-4FD6-5A07-A0FFC8466EDF</generatorID>
@@ -33,7 +33,7 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PRODAJNI_PREDSTAVNIK_ID" id="CAFA455D-E3FE-A5F5-F273-A59660B6081F">
+<Column name="PRODAJNI_PREDSTAVNICI_ID" id="CAFA455D-E3FE-A5F5-F273-A59660B6081F">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>1C561CC0-C727-8A68-D0A0-FCD7AC02E234</generatorID>
@@ -73,7 +73,7 @@
 <colUsage columnID="CAFA455D-E3FE-A5F5-F273-A59660B6081F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="209D2253-6C68-6E4B-AE53-AA5DF75254B4" name="GRAD_PRODAJNI_PREDSTAVNIK_FK">
+<ind_PK_UK id="209D2253-6C68-6E4B-AE53-AA5DF75254B4" name="GRADOVI_PRODAJNI_PREDSTAVNICI_FK">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>3A5707B5-9BD3-D207-C3B1-5A3B3475362A</generatorID>

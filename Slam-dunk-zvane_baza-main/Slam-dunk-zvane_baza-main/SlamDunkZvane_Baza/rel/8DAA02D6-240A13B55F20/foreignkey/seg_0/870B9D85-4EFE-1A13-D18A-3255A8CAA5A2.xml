@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="870B9D85-4EFE-1A13-D18A-3255A8CAA5A2" containerWithKeyObject="19A3305E-452E-7613-4C9D-C7786E335A5E" localFKIndex="2139D8B6-D72B-7F96-ACD4-95CEE3ACD7DB" name="NARUDZBA_KUPAC_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="870B9D85-4EFE-1A13-D18A-3255A8CAA5A2" containerWithKeyObject="19A3305E-452E-7613-4C9D-C7786E335A5E" localFKIndex="2139D8B6-D72B-7F96-ACD4-95CEE3ACD7DB" name="NARUDZBE_KUPCI_FK">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>41A0957F-186F-AF1B-6F9C-DF6B117F7F54</generatorID>
 <ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
-<referredTableLongName>KUPAC</referredTableLongName>
+<referredTableLongName>KUPCI</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>B21A034E-B502-CAA3-27CD-A51454A3C75C</referredTableID>
 <keyObject>9DEE4C2F-8C17-313D-400A-C7DCC3CEC375</keyObject>

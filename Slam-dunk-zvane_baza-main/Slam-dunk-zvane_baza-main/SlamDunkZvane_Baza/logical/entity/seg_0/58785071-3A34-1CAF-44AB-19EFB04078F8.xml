@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58785071-3A34-1CAF-44AB-19EFB04078F8" name="NARUCENI ARTIKL">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58785071-3A34-1CAF-44AB-19EFB04078F8" name="NARUCENI_ARTIKL">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-12 12:07:47 UTC</createdTime>
 <ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
@@ -49,6 +49,7 @@
 <item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="true"/>
 </engineerTo>
 <referedAttribute>5A8E57A5-A7FE-2B33-A715-7F14AC9A9BAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -62,6 +63,7 @@
 <item key="8DAA02D6-BEA1-BE07-CE5D-240A13B55F20" value="true"/>
 </engineerTo>
 <referedAttribute>6FCAB165-F4AD-2924-C93A-7D66D9BB544C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>

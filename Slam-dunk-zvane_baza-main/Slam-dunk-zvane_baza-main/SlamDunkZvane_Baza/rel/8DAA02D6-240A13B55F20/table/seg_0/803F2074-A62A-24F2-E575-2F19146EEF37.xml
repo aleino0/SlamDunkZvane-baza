@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="803F2074-A62A-24F2-E575-2F19146EEF37" name="PRODAJNI_PREDSTAVNIK">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="803F2074-A62A-24F2-E575-2F19146EEF37" name="PRODAJNI_PREDSTAVNICI">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>C6E68EEE-3D3C-E01B-4553-96D5E1C1C31D</generatorID>
@@ -91,7 +91,7 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="grad" id="CEB00C4B-C693-DEE0-E556-9EC3FCB7A66D">
+<Column name="GRD" id="CEB00C4B-C693-DEE0-E556-9EC3FCB7A66D">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>05ACDAEA-8532-6197-C357-EFC6E269877D</generatorID>
@@ -128,7 +128,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PRODAJNI_PREDSTAVNIK_ID" id="6722E2BB-DCF5-C59A-C30C-AF947B196A23">
+<Column name="PRODAJNI_PREDSTAVNICI_ID" id="6722E2BB-DCF5-C59A-C30C-AF947B196A23">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>896A2DC7-D5C8-1A50-0906-F0789B036657</generatorID>
@@ -171,7 +171,7 @@
 <colUsage columnID="4897C47D-117C-B747-F6E4-AA0D5AF2A244"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B75A0C9F-E428-8A50-FC1A-8784A3195051" name="PRODAJNI_PREDSTAVNIK_PRODAJNI_PREDSTAVNIK_FK">
+<ind_PK_UK id="B75A0C9F-E428-8A50-FC1A-8784A3195051" name="PRODAJNI_PREDSTAVNICI_PRODAJNI_PREDSTAVNICI_FK">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>17ADC358-A732-A391-9A17-EFC967CD29A2</generatorID>

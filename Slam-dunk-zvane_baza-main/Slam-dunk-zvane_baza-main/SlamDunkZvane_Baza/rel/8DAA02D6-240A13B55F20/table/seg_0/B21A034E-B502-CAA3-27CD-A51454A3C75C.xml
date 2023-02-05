@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B21A034E-B502-CAA3-27CD-A51454A3C75C" name="KUPAC">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B21A034E-B502-CAA3-27CD-A51454A3C75C" name="KUPCI">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>C12ECA67-3D9B-EEAE-3ACF-4825D09F6975</generatorID>
@@ -67,7 +67,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PRODAJNI_PREDSTAVNIK_ID" id="C079DB9C-0952-F2C2-BE28-A2B13A6BC246">
+<Column name="PRODAJNI_PREDSTAVNICI_ID" id="C079DB9C-0952-F2C2-BE28-A2B13A6BC246">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>ED55952E-4A83-FCA8-5EE8-2931A20966BD</generatorID>
@@ -109,7 +109,7 @@
 <ownDataTypeParameters>,4,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PRE_tim" id="75188C72-EDA2-FF77-3049-CD6056302B0A">
+<Column name="PRE_TIM" id="75188C72-EDA2-FF77-3049-CD6056302B0A">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>A346FEB5-CCA2-FFAA-129B-FA96A9091775</generatorID>
@@ -124,7 +124,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9DEE4C2F-8C17-313D-400A-C7DCC3CEC375" name="KUPAC_PK">
+<ind_PK_UK id="9DEE4C2F-8C17-313D-400A-C7DCC3CEC375" name="KUPCI_PK">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>365FE90B-EADD-0234-ED47-F43CBF4877D1</generatorID>
@@ -136,7 +136,7 @@
 <colUsage columnID="8CE9540E-75F2-F5A6-30ED-191F4CAE30B0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="55DB2B34-FAA6-7934-B805-C6318BDE5A69" name="KUPAC_PKv2">
+<ind_PK_UK id="55DB2B34-FAA6-7934-B805-C6318BDE5A69" name="KUPCI_PKv1">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>23F9352E-E38C-43AF-52C0-212266BF86FD</generatorID>
@@ -158,7 +158,7 @@
 <colUsage columnID="DCBF9709-A776-EABD-2676-167077C46ED0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="463AEB0E-61B9-5499-4812-5BCB55471CE0" name="KUPAC_PKv3">
+<ind_PK_UK id="463AEB0E-61B9-5499-4812-5BCB55471CE0" name="KUPCI_PKv2">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>5A88707E-0FEC-FA75-78AA-77C78F57C80C</generatorID>
@@ -169,7 +169,7 @@
 <colUsage columnID="DCBF9709-A776-EABD-2676-167077C46ED0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C60B9F4C-A930-A4A6-0F86-A4B86267B5E1" name="KUPAC_PRODAJNI_PREDSTAVNIK_FK">
+<ind_PK_UK id="C60B9F4C-A930-A4A6-0F86-A4B86267B5E1" name="KUPCI_PRODAJNI_PREDSTAVNICI_FK">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>325576C2-155E-8977-F4E6-C7E3FF23D932</generatorID>

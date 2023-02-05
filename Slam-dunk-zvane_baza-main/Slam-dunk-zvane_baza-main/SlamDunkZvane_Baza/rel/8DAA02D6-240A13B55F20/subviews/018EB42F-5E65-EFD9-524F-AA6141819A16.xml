@@ -74,7 +74,7 @@
 <lineWidth>1</lineWidth>
 <points>
 <point x="541" y="210"/>
-<point x="541" y="129"/>
+<point x="526" y="129"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="870B9D85-4EFE-1A13-D18A-3255A8CAA5A2" otype="FKIndexAssociation" vid_source="C17F9E33-60A3-B70D-42B2-D1FEC148E8B4" vid_target="E12D97F3-426B-F46E-6983-5113B905F396">
@@ -83,7 +83,7 @@
 <lineWidth>1</lineWidth>
 <points>
 <point x="521" y="361"/>
-<point x="536" y="489"/>
+<point x="521" y="489"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="8CF028A3-DCB2-A152-7BB8-CD9A3D34AAFC" otype="FKIndexAssociation" vid_source="A49EB1EE-5987-EDEC-C2A6-7EBAC82703EF" vid_target="EEAAE49B-16A5-F0FA-DB45-176732060A4A">
@@ -100,7 +100,7 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="606" y="517"/>
+<point x="606" y="532"/>
 <point x="867" y="532"/>
 </points>
 </Connector>

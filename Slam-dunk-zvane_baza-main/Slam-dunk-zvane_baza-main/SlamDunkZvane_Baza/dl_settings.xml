@@ -292,6 +292,7 @@
 			<discriminator_col value="{table abbr}_TYPE"/>
 		</constraints>
 		<glossaries>
+			<glossary_file value="C:\Users\linar\Documents\programiranje\Slam-dunk-zvane_baza-main\Slam-dunk-zvane_baza-main\SLAmDunk-Glossary.glossary"/>
 		</glossaries>
 	</naming_standard_rules>
 	<comparemapping>

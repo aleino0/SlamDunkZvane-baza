@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E09E3C2D-B14B-8B42-AF07-2E0BCC15E472" containerWithKeyObject="B21A034E-B502-CAA3-27CD-A51454A3C75C" localFKIndex="C60B9F4C-A930-A4A6-0F86-A4B86267B5E1" name="KUPAC_PRODAJNI_PREDSTAVNIK_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E09E3C2D-B14B-8B42-AF07-2E0BCC15E472" containerWithKeyObject="B21A034E-B502-CAA3-27CD-A51454A3C75C" localFKIndex="C60B9F4C-A930-A4A6-0F86-A4B86267B5E1" name="KUPCI_PRODAJNI_PREDSTAVNICI_FK">
 <createdBy>Korisnik</createdBy>
 <createdTime>2023-01-26 12:25:55 UTC</createdTime>
 <generatorID>325576C2-155E-8977-F4E6-C7E3FF23D932</generatorID>
 <ownerDesignName>SlamDunkZvane_Baza</ownerDesignName>
-<referredTableLongName>PRODAJNI_PREDSTAVNIK</referredTableLongName>
+<referredTableLongName>PRODAJNI_PREDSTAVNICI</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>803F2074-A62A-24F2-E575-2F19146EEF37</referredTableID>
 <keyObject>9AF11B4F-00A9-553E-CF82-F9DCB0374FD3</keyObject>
